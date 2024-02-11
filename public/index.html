@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <title>harechat</title>
+  <meta charset=utf-8>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js" integrity="sha512-YeeA/Qxn5hYdkukScTCNNOhTrv1C2RubAGButJ1rmgQwZf/HdRaCGl+JAVkqsqaNRaYNHdheiuKKuPf9mDcqKg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <div class=chat-frame>
+    <div class=chat-contents>
+    </div>
+    <div class=chat-form>
+      <span>name</span><input type=text>
+    </div>
+  </div>
+<header>
+  <h1>　harechat　</h1>
+  <div>
+    <center>
+    <p type=button class="name-change">menu</p>
+    </center>
+    
+  </div>
+</header>
+  <h1 id=connecting>connecting...</h1>
+  <dialog class="name-input">
+    <h3>名前を入力してください</h3>
+    <input type=text class=input>
+    <input type=button class=button value=ok>
+    <p class=notice></p>
+  </dialog>
+
+
+  <script src=src/main.js></script>
+</body>

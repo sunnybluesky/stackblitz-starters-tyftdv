@@ -1,0 +1,46 @@
+
+header{
+  background: #888;
+  transform: translateX(-10px)translateY(-21px);
+  width: 102%;
+  overflow: hidden;
+  display:flex;
+}
+header > div{
+  transform:translateX(20px)translateY(13px);
+  height:68px;
+  width:150px;
+  border:#000 2px solid;
+  border-radius: 10px;
+}
+header > div > center{
+transform: translateY(3px);
+font-size: large;
+}
+.nane-input > .notice {
+  color: red;
+  font-size: 6px;
+}
+.chat-frame {
+  display:none;
+  position: fixed;
+  margin: 0px;
+  transform: translateY(20px);
+  border:2px solid black;
+  width:270px;
+  height:400px;
+}
+.chat-contents{
+  margin:0px;
+  height:350px;
+  overflow-y: auto;
+  border-bottom:2px solid black;
+}
+.chat-form{
+  margin:7px;
+  height:80px;
+}
+.chat-form > input{
+  height:13px;
+  transform: translateY(-5px);
+}
